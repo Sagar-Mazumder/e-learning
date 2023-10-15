@@ -9,7 +9,7 @@ import image from '../../images/logo.png';
 const Navigation = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="bg-white shadow-sm p-2 fs-5">
+            <Navbar collapseOnSelect expand="lg" className="sticky-top bg-white shadow-sm p-2 fs-5">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img
