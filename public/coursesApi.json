@@ -1,0 +1,82 @@
+[
+    {
+        "courseId": 1,
+        "courseName": "Introduction to Computer Science",
+        "courseRatings": 4.8,
+        "coursePrice": 49.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "A comprehensive introduction to the world of computer science, covering fundamental concepts and programming."
+    },
+    {
+        "courseId": 2,
+        "courseName": "Mathematics for Beginners",
+        "courseRatings": 4.5,
+        "coursePrice": 39.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Start your journey into mathematics with this beginner-friendly course, covering basic concepts and problem-solving."
+    },
+    {
+        "courseId": 3,
+        "courseName": "History of World Civilizations",
+        "courseRatings": 4.7,
+        "coursePrice": 59.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Explore the rich history of world civilizations, from ancient times to modern societies."
+    },
+    {
+        "courseId": 4,
+        "courseName": "Physics: Fundamentals and Applications",
+        "courseRatings": 4.6,
+        "coursePrice": 69.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Delve into the world of physics, learning its fundamental principles and real-world applications."
+    },
+    {
+        "courseId": 5,
+        "courseName": "Art History: Ancient to Contemporary",
+        "courseRatings": 4.9,
+        "coursePrice": 49.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Discover the evolution of art and its various movements from ancient times to contemporary art."
+    },
+    {
+        "courseId": 6,
+        "courseName": "Language Learning: Spanish 101",
+        "courseRatings": 4.4,
+        "coursePrice": 29.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Start your journey into the Spanish language, covering basic vocabulary and conversation."
+    },
+    {
+        "courseId": 7,
+        "courseName": "Environmental Science and Sustainability",
+        "courseRatings": 4.7,
+        "coursePrice": 59.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.pngg",
+        "details": "Explore environmental science and sustainable practices for a better future."
+    },
+    {
+        "courseId": 8,
+        "courseName": "Business Management: Strategies and Leadership",
+        "courseRatings": 4.8,
+        "coursePrice": 79.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Learn essential business management strategies and leadership skills."
+    },
+    {
+        "courseId": 9,
+        "courseName": "Web Development for Beginners",
+        "courseRatings": 4.6,
+        "coursePrice": 49.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Get started in web development with this beginner-friendly course, covering HTML, CSS, and more."
+    },
+    {
+        "courseId": 10,
+        "courseName": "Psychology: Understanding the Human Mind",
+        "courseRatings": 4.9,
+        "coursePrice": 69.99,
+        "courseImage": "https://i.ibb.co/6tCSJKC/course-image.png",
+        "details": "Explore the fascinating world of psychology and gain insights into the human mind."
+    }
+]

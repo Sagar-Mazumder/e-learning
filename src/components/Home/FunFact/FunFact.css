@@ -1,0 +1,16 @@
+.fun-fact-container {
+    background-image: url('https://i.ibb.co/TMZpC88/bg-image.jpg');
+    height: 400px;
+}
+
+img {
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .fun-fact-container {
+
+        height: 800px;
+    }
+
+}

@@ -7,6 +7,9 @@ import Button from 'react-bootstrap/Button';
 import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Home.css';
+import About from './About/About';
+import HomeCourses from './HomeCourses/HomeCourses';
+import FunFact from './FunFact/FunFact';
 const Home = () => {
     return (
         <>
@@ -49,7 +52,7 @@ const Home = () => {
             </Container>
 
             {/* middle section  */}
-            <section >
+            {/* <section >
                 <div className='d-flex justify-content-around align-items-center'>
                     <Button variant="outline-secondary">
                        <div className='d-flex'>
@@ -65,6 +68,20 @@ const Home = () => {
                     <Button variant="outline-secondary">Expert Teacher</Button>
                     <Button variant="outline-secondary">Contact</Button>
                 </div>
+            </section> */}
+
+            {/* about section */}
+            <About></About>
+
+            {/* explore course section  */}
+            <section className='mt-5'>
+                <h1 className='text-center fw-bold'>Explore Courses</h1>
+                <HomeCourses></HomeCourses>
+            </section>
+
+            {/* fun fact section  */}
+            <section className='mt-5'>
+                <FunFact></FunFact>
             </section>
         </>
     );

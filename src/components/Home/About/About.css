@@ -1,0 +1,20 @@
+.image-zoom {
+    transition: transform 2s ease;
+    width: 295px;
+    height: 504px;
+}
+
+.image-zoom:hover {
+    transform: scale(1.1);
+}
+
+.courses-btn {
+    padding: 15px 30px 15px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-zoom {
+        width: 150px;
+        height: 274px;
+    }
+}
