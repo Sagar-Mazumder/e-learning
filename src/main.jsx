@@ -30,7 +30,8 @@ const router = createBrowserRouter([
       ,
       {
         path: 'courses',
-        element: <Courses></Courses>
+        element: <Courses></Courses>,
+        loader: () => fetch('coursesApi.json')
       }
       ,
       {

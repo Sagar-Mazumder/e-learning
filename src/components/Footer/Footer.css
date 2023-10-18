@@ -1,0 +1,16 @@
+.bg-container {
+    background-image: url('../../images/bg-footer.jpg');
+    background-size: cover;
+}
+
+hr {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

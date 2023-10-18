@@ -2,7 +2,9 @@ import React from 'react';
 import './About.css'
 import aboutImage1 from '../../../images/std-image.jpg';
 import aboutImage2 from '../../../images/std-image 2.jpg';
-import { Button, Container } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 const About = () => {
 
     return (
@@ -22,13 +24,13 @@ const About = () => {
                         Welcome to the Online <br /> Learning Center
                     </h1>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, simply free text by injected humour.</p>
-                    <p className='mt-4'>Get unlimited access to 66000+ of our top courses
+                    <p className='mt-4'><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#000000", }} /> Get unlimited access to 66000+ of our top courses
                     </p>
-                    <p>Explore a variety of fresh educational topics
+                    <p><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#000000", }} /> Explore a variety of fresh educational topics
                     </p>
-                    <p>Find the best qualitfied teacher for you
+                    <p><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#000000", }} /> Find the best qualitfied teacher for you
                     </p>
-                    <p>Transform access to education
+                    <p><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#000000", }} /> Transform access to education
                     </p>
                     <Button className='courses-btn' variant="dark">VIEW ALL COURSES</Button>
                 </div>

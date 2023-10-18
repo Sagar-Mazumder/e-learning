@@ -3,6 +3,7 @@ import './FunFact.css';
 import teacher from '../../../images/fun-fact/teacher.png';
 import video from '../../../images/fun-fact/play-button.png';
 import reading from '../../../images/fun-fact/reading-book.png';
+
 const FunFact = () => {
     return (
         <>

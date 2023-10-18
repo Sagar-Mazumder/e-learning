@@ -4,8 +4,6 @@ import ladyTeacher from '../../images/Teacher-2.png';
 import gentsTeacher from '../../images/Teacher-1.png';
 import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import { faChalkboardUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Home.css';
 import About from './About/About';
 import HomeCourses from './HomeCourses/HomeCourses';
@@ -71,14 +69,15 @@ const Home = () => {
             </section> */}
 
             {/* about section */}
-            <About></About>
+            <section>
+                <About></About>
+            </section>
 
             {/* explore course section  */}
             <section className='mt-5'>
                 <h1 className='text-center fw-bold'>Explore Courses</h1>
                 <HomeCourses></HomeCourses>
             </section>
-
             {/* fun fact section  */}
             <section className='mt-5'>
                 <FunFact></FunFact>
