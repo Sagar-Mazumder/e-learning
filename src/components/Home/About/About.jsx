@@ -5,6 +5,7 @@ import aboutImage2 from '../../../images/std-image 2.jpg';
 import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 const About = () => {
 
     return (
@@ -32,7 +33,8 @@ const About = () => {
                     </p>
                     <p><FontAwesomeIcon icon={faCircleCheck} style={{ color: "#000000", }} /> Transform access to education
                     </p>
-                    <Button className='courses-btn' variant="dark">VIEW ALL COURSES</Button>
+                    <Link to='/courses'><Button className='courses-btn' variant="dark">VIEW ALL COURSES</Button></Link>
+
                 </div>
 
             </div>

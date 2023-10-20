@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "teacherName": "John Smith",
+        "teacherRatings": 4.7,
+        "description": "John Smith is a dedicated and knowledgeable teacher with several years of experience in mathematics.",
+        "image": "https://i.ibb.co/mq9prBJ/teacher-1.jpg"
+    },
+    {
+        "id": 2,
+        "teacherName": "Sarah Johnson",
+        "teacherRatings": 4.9,
+        "description": "Sarah Johnson is an outstanding English teacher known for her passion for literature and her ability.",
+        "image": "https://i.ibb.co/yd83dcd/teacher-2.jpg"
+    },
+    {
+        "id": 3,
+        "teacherName": "Michael Brown",
+        "teacherRatings": 4.5,
+        "description": "Michael Brown is a history teacher with a deep understanding of the subject.",
+        "image": "https://i.ibb.co/zXtHB4K/teacher-3.jpg"
+    },
+    {
+        "id": 4,
+        "teacherName": "Emily Davis",
+        "teacherRatings": 4.8,
+        "description": "Emily Davis is a science teacher who brings creativity to her lessons.",
+        "image": "https://i.ibb.co/nfzKyzH/teacher-4.jpg"
+    }
+]
+
+
+

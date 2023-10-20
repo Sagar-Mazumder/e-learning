@@ -16,7 +16,7 @@ const HomeCourse = ({ courses }) => {
                         <Rating style={{ maxWidth: 100 }} value={courseRatings} readOnly />
                         <h6>$ {coursePrice}</h6>
                     </Card.Text>
-                    <Button className='w-100' variant="dark">Add to Cart</Button>
+                    <Button className='w-100' variant="dark">Get Enrolled</Button>
                 </Card.Body>
             </Card>
         </div>

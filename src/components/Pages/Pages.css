@@ -1,0 +1,35 @@
+.course-container {
+    background-image: url('../../images/course-bg.jpg');
+    height: 313px;
+    background-size: cover;
+}
+
+.course-container h2 {
+
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+
+.image-container img {
+
+    width: 570px;
+    height: 296px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .course-container {
+        background-image: url('../../images/course-bg.jpg');
+        height: 151px;
+    }
+
+    .image-container img {
+
+        width: 360px;
+        height: 187px;
+
+    }
+
+}

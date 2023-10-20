@@ -8,6 +8,7 @@ import './Home.css';
 import About from './About/About';
 import HomeCourses from './HomeCourses/HomeCourses';
 import FunFact from './FunFact/FunFact';
+import HomeAllNews from './HomeNews/HomeAllNews';
 const Home = () => {
     return (
         <>
@@ -75,12 +76,20 @@ const Home = () => {
 
             {/* explore course section  */}
             <section className='mt-5'>
-                <h1 className='text-center fw-bold'>Explore Courses</h1>
+                <p className='text-secondary text-center fs-5'>Checkout New List</p>
+                <h1 className='text-center fw-bold fs-1'>Explore Courses</h1>
                 <HomeCourses></HomeCourses>
             </section>
             {/* fun fact section  */}
             <section className='mt-5'>
                 <FunFact></FunFact>
+            </section>
+
+            {/* news section */}
+            <section className='mt-5'>
+                <p className='text-secondary text-center fs-5'>Directly from the Blog</p>
+                <h1 className='text-center fw-bold fs-1'>Latest Articles</h1>
+                <HomeAllNews></HomeAllNews>
             </section>
         </>
     );
